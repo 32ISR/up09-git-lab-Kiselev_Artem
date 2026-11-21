@@ -1,0 +1,20 @@
+meta {
+  name: CreateItem
+  type: http
+  seq: 7
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "iPhone X18 мужской",
+    "description": "Мужской iPhone X18 в идеальном состоянии, акссесуров, задняя крышка крокодилья кожа, акакий в подарок",
+    "price": 500,
+    "imageUrl": "https://example.com/iphone.jpg"
+  }
+}
