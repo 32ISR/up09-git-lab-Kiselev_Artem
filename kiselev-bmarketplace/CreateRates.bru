@@ -1,0 +1,17 @@
+meta {
+  name: CreateRates
+  type: http
+  seq: 9
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items/1795250709390/bids
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "amount": 100000
+  }
+}

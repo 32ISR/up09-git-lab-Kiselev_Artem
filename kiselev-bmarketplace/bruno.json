@@ -1,0 +1,17 @@
+{
+  "version": "1",
+  "name": "kiselev-bmarketplace",
+  "type": "collection",
+  "proxy": {
+    "bypassProxy": "",
+    "enabled": "global",
+    "auth": {
+      "enabled": false,
+      "username": "",
+      "password": ""
+    },
+    "port": null,
+    "hostname": "",
+    "protocol": "https"
+  }
+}
